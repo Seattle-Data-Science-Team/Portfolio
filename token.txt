@@ -1,5 +1,0 @@
-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
-
-
-git remote set-url origin https://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@github.com/SeattleDataScienceTeam/SeattleDataScienceTeam.github.io.git
-
