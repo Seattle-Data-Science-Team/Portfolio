@@ -178,11 +178,10 @@
   </div>
 
 
-  <!-- service section -->
-
-  <section class="service_section layout_padding">
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="service_section layout_padding">
     <div class="service_container">
-      <div class="container ">
+      <div class="container">
         <div class="heading_container heading_center">
           <h2>
             Our <span>Services</span>
@@ -191,15 +190,26 @@
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
           </p>
         </div>
-        <div class="row">
-          <div class="col-md-4 ">
-            <div class="box ">
+        
+        <!-- Filter Buttons -->
+        <div class = "btn-box" id="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="spatial">Spatial Analysis</button>
+            <button class="filter-btn" data-filter="predictive">Predictive Modelling</button>
+            <button class="filter-btn" data-filter="descriptive">Descriptive Analysis</button>
+            <button class="filter-btn" data-filter="gtfs">Real-Time GTFS</button>
+        </div>
+    
+        <!-- Portfolio Items -->
+        <div id="portfolio-items" class="row">
+          <div class="col-md-4 portfolio-item" data-category="spatial">
+            <div class="box" >
               <div class="img-box">
                 <img src="images/s1.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Currency Wallet
+                  High Injury Network
                 </h5>
                 <p>
                   fact that a reader will be distracted by the readable content of a page when looking at its layout.
@@ -210,14 +220,14 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 ">
+          <div class="col-md-4 portfolio-item" data-category="predictive">
             <div class="box ">
               <div class="img-box">
                 <img src="images/s2.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Security Storage
+                  Driver Behavior
                 </h5>
                 <p>
                   fact that a reader will be distracted by the readable content of a page when looking at its layout.
@@ -228,14 +238,53 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 ">
+  
+          <div class="col-md-4 portfolio-item" data-category="descriptive">
             <div class="box ">
               <div class="img-box">
                 <img src="images/s3.png" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  Expert Support
+                  Crash Analysis
+                </h5>
+                <p>
+                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The
+                  point of using
+                </p>
+                
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4 portfolio-item" data-category="gtfs">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/s3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  On-time Performance
+                </h5>
+                <p>
+                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The
+                  point of using
+                </p>
+                
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4 portfolio-item" data-category="gtfs">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/s3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Test 2
                 </h5>
                 <p>
                   fact that a reader will be distracted by the readable content of a page when looking at its layout.
@@ -247,14 +296,19 @@
             </div>
           </div>
         </div>
+        
         <div class="btn-box">
           <a href="">
             View All
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
           </a>
         </div>
+
       </div>
     </div>
   </section>
+
+  <!-- End Portfolio Section -->
 
   <!-- end service section -->
 
