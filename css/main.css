@@ -741,10 +741,12 @@ body {
     fill: #fff
 }
 
-.intro--banner img {
+.intro--banner img,
+.intro--banner i {
     position: absolute;
-    bottom: 21px;
-    right: -12px
+    bottom: 40px;
+    right: -12px;
+    font-size: 375px;
 }
 
 .intro--options {
@@ -764,7 +766,7 @@ body {
 .intro--options>a {
     max-width: 250px;
     text-decoration: none;
-    color: #282828;
+    color: #7c7c7c;
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out
 }
@@ -1189,10 +1191,12 @@ body {
     transition: left .2s ease-in-out
 }
 
-.about--banner img {
+.about--banner img
+,.about--banner i {
     position: absolute;
-    bottom: -90px;
-    right: -12px
+    bottom: 30px;
+    right: -30px;
+    font-size: 350px;
 }
 
 .about--options {
