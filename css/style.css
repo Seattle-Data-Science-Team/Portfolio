@@ -660,6 +660,16 @@ a:focus {
   padding: 0 15px;
 }
 
+.team_section .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: space-evenly;
+}
+
 .team_section .team_container .box {
   padding: 35px 0 0 0;
   border-radius: 5px;
